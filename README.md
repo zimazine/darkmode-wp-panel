@@ -9,7 +9,7 @@ WordPress ブロックエディタを**投稿画面のみ**ダークモードを
 
 
 ```
-![ダークモード](https://github.com/zimazine/darkmode-wp-panel/wp-sonic.jpg "ダークモード")
+![ダークモード](https://github.com/zimazine/darkmode-wp-panel/blob/master/wp-dark.jpg"ダークモード")
 ```
 
 ## 使い方
