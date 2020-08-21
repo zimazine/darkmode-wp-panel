@@ -1,5 +1,5 @@
 /*--------------------------------------
-ブロックエディタ
+ブロックエディタダークモード
 --------------------------------------*/
 #adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
     background: #333;
@@ -11,7 +11,7 @@
 }
 
 .interface-interface-skeleton__header {
-    border-color: #333;
+    border: none;
 }
 
 .edit-post-header * {
@@ -28,7 +28,11 @@
     color: #fff;
 }
 
-/*右サイドバー*/
+.edit-post-layout__metaboxes:not(:empty) {
+    border-top: none;
+}
+
+/*エディタ右サイドバー*/
 .components-panel__header.edit-post-sidebar__panel-tabs {
     background: #333;
 }
@@ -37,12 +41,17 @@
     color: #fff;
 }
 
+.interface-interface-skeleton__sidebar {
+    border: none;
+}
+
 .cld-taxonomy-order {
     background: #333;
 }
 
 .edit-post-sidebar * {
     color: #fff !important;
+    border-color: #333;
 }
 
 .edit-post-sidebar textarea,
@@ -65,7 +74,109 @@
     background: #333;
 }
 
-/*SEOプラグイン*/
+.block-editor-block-styles__item-preview {
+    background: #222;
+}
+
+.components-form-token-field__token-text,
+.components-form-token-field__remove-token.has-icon {
+    background: #555;
+}
+
+.components-input-control__container {
+    background: #555 !important;
+}
+
+/*エディタアラート*/
+.components-notice.is-warning{
+    background: #555;
+    color: #fff;
+}
+.components-notice.is-warning a{
+    color: #fff;
+}
+
+.components-notice-list .components-notice__action.components-button {
+    box-shadow: none;
+    color: #fff;
+}
+
+/*エディタフッター*/
+.edit-post-layout__footer {
+    background: #333;
+    color: #fff;
+}
+
+.edit-post-layout__footer li,
+.edit-post-layout__footer li button {
+    color: #fff !important;
+}
+
+/*ブロック追加部分*/
+.components-placeholder.components-placeholder {
+    background: #333;
+    color: #fff;
+}
+
+.components-popover * {
+    color: #fff;
+    background: #555;
+}
+
+.components-dropdown__content .components-popover__content>div {
+    background: #555;
+}
+
+.block-editor-inserter__tabs .components-tab-panel__tab-content {
+    background: #555;
+}
+
+.components-button.block-editor-block-types-list__item,
+.components-button.block-editor-block-types-list__item svg {
+    color: #fff;
+}
+
+.block-editor-inserter__search-icon>svg {
+    fill: #fff;
+}
+
+.block-editor-block-patterns-list__item {
+    background: #333;
+}
+
+.block-editor-inserter__panel-title {
+    color: #fff
+}
+
+.block-editor-inserter__tabs .components-tab-panel__tabs .components-tab-panel__tabs-item {
+    color: #fff;
+}
+
+.block-editor-inserter__content {
+    background: #555;
+}
+
+.block-editor-inserter__search input[type=search].block-editor-inserter__search-input {
+    background: #333 !important;
+    color: #fff;
+}
+
+.components-tab-panel__tab-content {
+    color: #fff;
+}
+.block-editor-inserter__search {
+    background: #555;
+}
+
+.block-editor-inserter__main-area {
+    background: #555;
+}
+
+.block-editor-block-navigation-leaf .block-editor-block-navigation-block-contents {
+    color: #fff;
+}
+
+/*THE SONIC SEOプラグイン*/
 .edit-post-layout__metaboxes *{
     color: #fff !important;
 }
@@ -110,82 +221,10 @@ textarea#tsnc_memo_id {
     background: #555 !important;
 }
 
-/*アラート*/
-.components-notice.is-warning{
-    background: #555;
-    color: #fff;
-}
-.components-notice.is-warning a{
-    color: #fff;
-}
-
-/*フッター*/
-.edit-post-layout__footer {
-    background: #333;
-    color: #fff;
-}
-
-.edit-post-layout__footer li,
-.edit-post-layout__footer li button {
-    color: #fff !important;
-}
-
-/*ブロック*/
-.components-placeholder.components-placeholder {
-    background: #333;
-    color: #fff;
-}
-
-.components-popover * {
-    color: #fff;
-    background: #555;
-}
-
-.components-dropdown__content .components-popover__content>div {
-    background: #555;
-}
-
-.block-editor-inserter__tabs .components-tab-panel__tab-content {
-    background: #555;
-}
-
-.components-button.block-editor-block-types-list__item,
-.components-button.block-editor-block-types-list__item svg {
-    color: #fff;
-}
-
-.block-editor-inserter__tabs .components-tab-panel__tabs .components-tab-panel__tabs-item {
-    color: #fff;
-}
-
-.block-editor-inserter__content {
-    background: #555;
-}
-
-.block-editor-inserter__search input[type=search].block-editor-inserter__search-input {
-    background: #333;
-    color: #fff;
-}
-
-.components-tab-panel__tab-content {
-    color: #fff;
-}
-.block-editor-inserter__search {
-    background: #555;
-}
-
-.block-editor-inserter__main-area {
-    background: #555;
-}
-
-.block-editor-block-navigation-leaf .block-editor-block-navigation-block-contents {
-    color: #fff;
-}
-
 /*SONIC*/
 p[class^="is-style-para-icon"],
 p.is-style-para-mark6 {
-    color: #222;
+    color: #222 !important;
 }
 
 .ranking-item {
@@ -194,11 +233,6 @@ p.is-style-para-mark6 {
 
 .is-style-titlebox-mark2 .ob-contents {
     background: rgba(0, 0, 0, .2);
-}
-
-pre {
-    background: rgba(0, 0, 0, .2);
-    color: #fff !important;
 }
 
 .sonic-box {
@@ -228,3 +262,8 @@ pre {
     color: #fff !important;
 }
 
+/*一般ブロック*/
+pre {
+    background: rgba(0, 0, 0, .2);
+    color: #fff !important;
+}
