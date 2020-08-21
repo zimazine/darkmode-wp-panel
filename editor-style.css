@@ -66,6 +66,10 @@
 }
 
 /*SEOプラグイン*/
+.edit-post-layout__metaboxes *{
+    color: #fff !important;
+}
+
 .edit-post-layout__metaboxes {
     background: #333;
 }
@@ -223,3 +227,4 @@ pre {
 .inlink-title {
     color: #fff !important;
 }
+
