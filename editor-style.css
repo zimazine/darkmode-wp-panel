@@ -49,7 +49,7 @@
     background: #333;
 }
 
-.edit-post-sidebar * {
+.edit-post-sidebar *:not(.components-circular-option-picker__option) {
     color: #fff !important;
     border-color: #333;
 }
