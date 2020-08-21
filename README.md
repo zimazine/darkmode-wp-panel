@@ -8,6 +8,10 @@ WordPress ブロックエディタを**投稿画面のみ**ダークモードを
 
 
 
+![画像の説明](./wp-dark.jpg "hero")
+
+
+
 ![ダークモード](https://raw.githubusercontent.com/zimazine/darkmode-wp-panel/master/wp-dark.jpg)
 
 
