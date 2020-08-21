@@ -6,6 +6,12 @@ WordPress ブロックエディタを**投稿画面のみ**ダークモードを
 
 一部 THE SONICテーマのブロックに対応
 
+
+
+```
+![ダークモード](https://github.com/zimazine/darkmode-wp-panel/wp-sonic.jpg "ダークモード")
+```
+
 ## 使い方
 
 ```
