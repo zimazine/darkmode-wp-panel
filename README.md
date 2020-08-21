@@ -8,9 +8,9 @@ WordPress ブロックエディタを**投稿画面のみ**ダークモードを
 
 
 
-```git
 ![ダークモード](https://raw.githubusercontent.com/zimazine/darkmode-wp-panel/master/wp-dark.jpg)
-```
+
+
 
 ## 使い方
 
