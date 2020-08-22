@@ -1,0 +1,287 @@
+/*--------------------------------------
+ブロックエディタダークモード
+--------------------------------------*/
+#adminmenu, #adminmenu .wp-submenu, #adminmenuback, #adminmenuwrap {
+    background: #333 !important;
+}
+
+.edit-post-header {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.interface-interface-skeleton__header {
+    border: none !important;
+}
+
+.edit-post-header * {
+    color: #fff !important;
+}
+
+.interface-interface-skeleton__content .editor-styles-wrapper {
+    background: #222 !important;
+    color: #fff !important;
+}
+
+.components-panel {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.edit-post-layout__metaboxes:not(:empty) {
+    border-top: none !important;
+}
+
+/*エディタ右サイドバー*/
+.components-panel__header.edit-post-sidebar__panel-tabs {
+    background: #333 !important;
+}
+
+.components-panel__header.edit-post-sidebar__panel-tabs button {
+    color: #fff !important;
+}
+
+.interface-interface-skeleton__sidebar {
+    border: none !important;
+}
+
+.cld-taxonomy-order {
+    background: #333 !important;
+}
+
+.edit-post-sidebar *:not(.components-circular-option-picker__option) {
+    color: #fff  !important;
+    border-color: #333 !important;
+}
+
+.edit-post-sidebar textarea,
+.edit-post-sidebar input {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.components-button {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.components-button.is-tertiary {
+    color: #02B1C3 !important;
+}
+
+.block-editor-block-inspector__no-blocks,
+.interface-complementary-area.edit-post-sidebar {
+    background: #333 !important;
+}
+
+.block-editor-block-styles__item-preview {
+    background: #222 !important;
+}
+
+.components-form-token-field__token-text,
+.components-form-token-field__remove-token.has-icon {
+    background: #555 !important;
+}
+
+.components-input-control__container {
+    background: #555  !important;
+}
+
+/*エディタアラート*/
+.components-notice.is-warning{
+    background: #555 !important;
+    color: #fff !important;
+}
+.components-notice.is-warning a{
+    color: #fff !important;
+}
+
+.components-notice-list .components-notice__action.components-button {
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+/*エディタフッター*/
+.edit-post-layout__footer {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.edit-post-layout__footer li,
+.edit-post-layout__footer li button {
+    color: #fff  !important;
+}
+
+/*ブロック追加部分*/
+.components-placeholder.components-placeholder {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.components-popover * {
+    color: #fff !important;
+    background: #555 !important;
+}
+
+.components-dropdown__content .components-popover__content>div {
+    background: #555 !important;
+}
+
+.block-editor-inserter__tabs .components-tab-panel__tab-content {
+    background: #555 !important;
+}
+
+.components-button.block-editor-block-types-list__item,
+.components-button.block-editor-block-types-list__item svg {
+    color: #fff !important;
+}
+
+.block-editor-inserter__search-icon>svg {
+    fill: #fff !important;
+}
+
+.block-editor-block-patterns-list__item {
+    background: #333 !important;
+}
+
+.block-editor-inserter__panel-title {
+    color: #fff
+}
+
+.block-editor-inserter__tabs .components-tab-panel__tabs .components-tab-panel__tabs-item {
+    color: #fff !important;
+}
+
+.block-editor-inserter__content {
+    background: #555 !important;
+}
+
+.block-editor-inserter__search input[type=search].block-editor-inserter__search-input {
+    background: #333  !important;
+    color: #fff !important;
+}
+
+.components-tab-panel__tab-content {
+    color: #fff !important;
+}
+.block-editor-inserter__search {
+    background: #555 !important;
+}
+
+.block-editor-inserter__main-area {
+    background: #555 !important;
+}
+
+.block-editor-block-navigation-leaf .block-editor-block-navigation-block-contents {
+    color: #fff !important;
+}
+
+/*THE SONIC SEOプラグイン*/
+.edit-post-layout__metaboxes *{
+    color: #fff  !important;
+}
+
+.edit-post-layout__metaboxes {
+    background: #333 !important;
+}
+
+.edit-post-layout__metaboxes textarea,
+.edit-post-layout__metaboxes input {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+.edit-post-layout__metaboxes textarea::placeholder {
+    color: #aaa !important;
+}
+
+.edit-post-meta-boxes-area .postbox {
+    background: #333 !important;
+    color: #fff !important;
+}
+
+.cld-tax-order-list-item {
+    background: #555  !important;
+}
+
+.wp-core-ui select {
+    background: #555 !important;
+    color: #fff !important;
+}
+
+#tsnc_pv_ranking_column {
+    background: #555  !important;
+}
+
+.div.tsnc_hfs_text {
+    color: #fff  !important;
+}
+
+textarea#tsnc_memo_id {
+    background: #555  !important;
+}
+
+/*SONIC*/
+p[class^="is-style-para-icon"],
+p.is-style-para-mark6 {
+    color: #222  !important;
+}
+
+.ranking-item {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.is-style-titlebox-mark2 .ob-contents {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.sonic-box {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.is-style-group-mark4,
+.is-style-group-mark6,
+.is-style-group-mark8 {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.is-style-group-mark13 {
+    color: #333 !important;
+}
+
+.huki-text-block {
+    color: #333 !important;
+}
+
+.wp-block .link-card {
+    background: rgba(0, 0, 0, .2) !important;
+}
+
+.exlink-title,
+.inlink-title {
+    color: #fff  !important;
+}
+
+/*一般ブロック*/
+pre {
+    background: rgba(0, 0, 0, .2) !important;
+    color: #fff  !important;
+}
+
+.block-library-spacer__resize-container {
+    background: #333 !important;
+    position: relative !important;
+}
+
+.block-library-spacer__resize-container:after {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    content: "スペーサー" !important;
+    color: #ccc !important;
+}
+
+.block-library-spacer__resize-container.is-selected {
+    background: #555 !important;
+}
