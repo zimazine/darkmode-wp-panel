@@ -285,3 +285,13 @@ pre {
 .block-library-spacer__resize-container.is-selected {
     background: #555;
 }
+
+/*Rinker*/
+div.yyi-rinker-contents {
+    background: #555;
+    border-color: #888;
+}
+
+div.yyi-rinker-title {
+    color: #fff;
+}
